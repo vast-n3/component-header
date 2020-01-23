@@ -1,0 +1,16 @@
+{
+    "name": "vast-n3/component-header",
+    "description": "Basic header",
+    "minimum-stability": "dev",
+    "require": {
+        "mnsami/composer-custom-directory-installer": "1.1.*"
+    },
+    "license": "MIT",
+    "extra": {
+        "installer-paths": {
+            "./frame/{$name}": [],
+            "./model/{$name}": [],
+            "./component/{$name}": []
+        }
+    }
+}
